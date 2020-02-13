@@ -47,11 +47,32 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
+<<<<<<< HEAD
+=======
+  # Given any matrix (array of arrays), a row index and a column index, 
+  # Return the matrix's content at that row and and column
+  assembled_matrix = [
+ ["Eggplant",
+  "Grapefruit",
+  "Oranges",
+  "Pineapple",
+  "Watermelon"],
+ ["Asparagus",
+  "Avocadoes",
+  "Grapes",
+  "Potatoes",
+  "Strawberries",]]
+>>>>>>> 0378542a945c46ab006605923e48ac2bc3c5c88c
 matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
+<<<<<<< HEAD
   
   matrix[row][column] = new_value
   return matrix
+=======
+  matrix[2] = "Lemons"
+  
+>>>>>>> 0378542a945c46ab006605923e48ac2bc3c5c88c
 end
